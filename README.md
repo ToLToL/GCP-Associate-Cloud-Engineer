@@ -83,3 +83,9 @@ Name must be unique across Cloud Storage.
 | `Nearline` | Best for backups and data accessed less than once a month |
 | `Coldline` | Best for disaster recovery and data accessed less than once a quarter |
 | `Archive` | Best for long-term digital preservation of data accessed less than once a year |
+
+#### Access control
+| Access control | Description |
+| ----- | --- |
+| `Uniform` | Ensure uniform access to all objects in the bucket by using only bucket-level permissions (IAM). This option becomes permanent after 90 days. |
+| `Fine-grained` | Specify access to individual objects by using object-level permissions (ACLs) in addition to your bucket-level permissions (IAM) |
