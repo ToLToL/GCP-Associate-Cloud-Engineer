@@ -97,3 +97,12 @@ Name must be unique across Cloud Storage.
 | --- | --- |
 | `Object versioning` | Best for recovery, restoring deleted or overwritten objects. To minimize the cost of storing versions, we recommend limiting the number of noncurrent versions per object and scheduling them to expire after a number of days. |
 | `Retention policy` | Best for retention policy, preventing the deletion or modification of the bucket's objects for a specified minimum duration of time after being uploaded.  |
+
+### 2. gcloud
+
+- `gsutil`: gcloud storage
+- `bq`: gcloud bigquery
+
+In general console > gcloud > rest API
+
+`curl -H "Metadata-Flavor:Google" metadata.google.internal/computeMetadata/v1/`: Compute Engine defines a set of default metadata entries that provide information about your virtual machine (VM) instance or project. Default metadata is always defined and set by the server.
