@@ -67,6 +67,8 @@ Notes to pass the GCP associate cloud engineer certification
 
 ### 1. Cloud storage
 
+Name must be unique across Cloud Storage.
+
 #### Location Type
 | Location Type | Description |
 | --- | --- |
