@@ -53,3 +53,12 @@ Notes to pass the GCP associate cloud engineer certification
 - Resources can be shared with others projects
 - Projects can be grouped et controlled in a hierarchy
 
+## Account setup
+
+### 1. Cloud Shell
+
+- Web browser access
+- Automatic SSH key management
+- 5 GB of persistent storage
+- Pre-authorized and always up-to-dat preinstalled tools (gcloud, kubectl, docker, pip/python, ruby, vim, node, bash ...)
+- Web preview of running web app on local port
