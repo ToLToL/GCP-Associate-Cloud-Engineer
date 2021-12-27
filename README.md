@@ -89,3 +89,11 @@ Name must be unique across Cloud Storage.
 | ----- | --- |
 | `Uniform` | Ensure uniform access to all objects in the bucket by using only bucket-level permissions (IAM). This option becomes permanent after 90 days. |
 | `Fine-grained` | Specify access to individual objects by using object-level permissions (ACLs) in addition to your bucket-level permissions (IAM) |
+
+
+#### Protection tools
+
+| Protection tools | Description |
+| --- | --- |
+| `Object versioning` | Best for recovery, restoring deleted or overwritten objects. To minimize the cost of storing versions, we recommend limiting the number of noncurrent versions per object and scheduling them to expire after a number of days. |
+| `Retention policy` | Best for retention policy, preventing the deletion or modification of the bucket's objects for a specified minimum duration of time after being uploaded.  |
