@@ -62,3 +62,22 @@ Notes to pass the GCP associate cloud engineer certification
 - 5 GB of persistent storage
 - Pre-authorized and always up-to-dat preinstalled tools (gcloud, kubectl, docker, pip/python, ruby, vim, node, bash ...)
 - Web preview of running web app on local port
+
+## Basic services
+
+### 1. Cloud storage
+
+#### Location Type
+| Location Type | Description |
+| --- | --- |
+| `Multi-region` | Highest availability across largest area |
+| `Dual-region` | High availability and low latency across 2 regions |
+| `Region` | Lowest latency within a single region |
+
+#### Storage class
+| Storage class | Description |
+| --- | --- |
+| `Standard` | Best for short-term storage and frequently accessed data |
+| `Nearline` | Best for backups and data accessed less than once a month |
+| `Coldline` | Best for disaster recovery and data accessed less than once a quarter |
+| `Archive` | Best for long-term digital preservation of data accessed less than once a year |
