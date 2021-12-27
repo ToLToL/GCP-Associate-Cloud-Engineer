@@ -109,4 +109,4 @@ In general console > gcloud > rest API
 
 ### 3. Compute engine
 
-Preemptibility = (AWS EC2 Spot instance): **Huge discount**, a preemptible VM costs much less, but lasts only 24 hours. It can be terminated sooner due to system demands
+**Preemptibility** (AWS EC2 Spot instance): a preemptible VM costs much less, but lasts only 24 hours. It can be terminated sooner due to system demands
