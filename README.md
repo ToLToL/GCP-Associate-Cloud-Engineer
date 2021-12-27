@@ -106,3 +106,7 @@ Name must be unique across Cloud Storage.
 In general console > gcloud > rest API
 
 `curl -H "Metadata-Flavor:Google" metadata.google.internal/computeMetadata/v1/`: Compute Engine defines a set of default metadata entries that provide information about your virtual machine (VM) instance or project. Default metadata is always defined and set by the server.
+
+### 3. Compute engine
+
+Preemptibility = (AWS EC2 Spot instance): **Huge discount**, a preemptible VM costs much less, but lasts only 24 hours. It can be terminated sooner due to system demands
