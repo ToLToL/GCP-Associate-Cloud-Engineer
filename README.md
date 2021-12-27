@@ -6,6 +6,18 @@ Notes to pass the GCP associate cloud engineer certification
 2. [GCP - AWS products mapping](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
 3. [Every product in the Google Cloud family described in <=4 words](https://github.com/priyankavergadia/google-cloud-4-words)
 
+## Shortcuts
+
+| Description | Command |
+| --- | --- |
+| Find products and services | `/` |
+| Open shortcut help | `? or Control+Shift+/` |
+| See all notifications/activity | `G then N` |
+| Open help menu | `G then H` |
+| Activate Cloud Shell | `G then S` |
+| Open project navigator | `Control+O (Command+O on macOS)` |
+| Go up one page | `U` |
+
 ## Introduction
 
 ### 1. Pricing
