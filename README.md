@@ -110,3 +110,11 @@ In general console > gcloud > rest API
 ### 3. Compute engine
 
 **Preemptibility** (AWS EC2 Spot instance): a preemptible VM costs much less, but lasts only 24 hours. It can be terminated sooner due to system demands
+
+
+## Scaling
+
+### Instance group
+
+- **managed instance group**: Single / multi-zone
+- **unmanaged instance group**: Single-zone only. best for load balancing instances that we can add / remove arbitrarily. Autoscaling, autohealing and rolling updating are not supported
