@@ -118,3 +118,30 @@ In general console > gcloud > rest API
 
 - **managed instance group**: Single / multi-zone
 - **unmanaged instance group**: Single-zone only. best for load balancing instances that we can add / remove arbitrarily. Autoscaling, autohealing and rolling updating are not supported
+
+
+## Security (IAM)
+
+### AAA Data flow
+
+1. Authentication - Who are you ?
+  - Identity
+    - G Suite, Cloud Idendity
+    - Applications & service us Service Accounts
+  - Identity hierarchy
+    - Google groups
+2. Authorization - What are you allowed to do ?
+  - Identity hierarchy (Google groups)
+  - Resource hierarchy (Organization, folders, projects)
+  - IAM
+    - Permissions
+    - Roles
+    - Bindings
+  - GCS ACLs
+  - Billing management
+  - Networking structure & restrictions
+3. Accounting - What did you do ?
+  - Audit / activity logs (Stackdriver)
+  - Billing export
+    - BigQuery
+    - File (GCS bucket) 
