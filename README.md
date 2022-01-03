@@ -194,4 +194,22 @@ Lives outside of projects can inherits only Organization-level IAM policies, not
 
 ![Screenshot 2022-01-03 at 15 57 49](https://user-images.githubusercontent.com/39993930/147945553-e71b5ae4-beff-4d09-9075-a221194ac369.png)
 
+### Routing schemes
 
+#### Unicast
+There's only one unique device that can handle the work, so send it there.
+
+![Screenshot 2022-01-03 at 16 39 00](https://user-images.githubusercontent.com/39993930/147949898-ed14926a-17f3-4ce2-82eb-159680231044.png)
+
+#### Anycast
+There are multiple devices that can handle the work, so send it to any one.
+
+![Screenshot 2022-01-03 at 16 39 45](https://user-images.githubusercontent.com/39993930/147949972-f86592a0-8c5f-422b-8a57-ff14fac678bf.png)
+
+### Layer 4 vs Layer 7
+
+#### Layer 4
+TCP/IP: IP addresses
+
+#### Layer 7
+HTTP and HTTPS: URLs and paths
