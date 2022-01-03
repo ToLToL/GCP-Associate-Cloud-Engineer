@@ -183,7 +183,8 @@ Always additive ("Allow") and never subtractive ("Deny"), child policies cannot 
 
 ## Billing accounts
 
-![Screenshot 2022-01-03 at 15 39 37](https://user-images.githubusercontent.com/39993930/147943413-0ee429f2-6396-4a29-8f98-06bbc92dfba6.png)
 Lives outside of projects can inherits only Organization-level IAM policies, not the project ones
+
+![Screenshot 2022-01-03 at 15 39 37](https://user-images.githubusercontent.com/39993930/147943413-0ee429f2-6396-4a29-8f98-06bbc92dfba6.png)
 ![Screenshot 2022-01-03 at 15 52 10](https://user-images.githubusercontent.com/39993930/147944846-e045ad48-23fe-4d93-8f8a-dff563be11dd.png)
 ![Screenshot 2022-01-03 at 15 53 34](https://user-images.githubusercontent.com/39993930/147945005-807bd83f-ef52-4438-9d67-933e561a7f8d.png)
