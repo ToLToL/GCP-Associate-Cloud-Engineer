@@ -122,6 +122,40 @@ In general console > gcloud > rest API
 
 ## Security (IAM)
 
+### Breakdown
+
+#### 1. Permission
+A permission allows to perform a certain action in the form of: **Service.Resource.Verb**. It usually correspond to REST API methods.
+example: pubsub.topics.publish
+
+#### 2. Role
+A role is a collection of permission to use GCP resources.
+
+- Primivite role: project-level and often too broad:
+  - Viewer, Editor, Owner
+- Predefined roles: granular access to specific resources
+  - roles/bigquery.dataEditor, roles/pubsub.subscriber
+- Custom role: granular project or organization-level roles we define
+
+#### 3. Members
+Can be:
+
+- user: Google acccount
+- serviceAccount: apps / services
+- group: group of users and service accounts
+- domain: whole domain managed by G Suite or Cloud Identity
+- allAuthenticatedUsers: any Google account or service account
+- allUsers - Anyone on the Internet
+
+A group has a unique email that is associated with it. Recommended.
+example: 1 group for each department
+
+#### 4. Policies
+A policy binds members to roles for some resources.
+
+Roles and members listed in policy, but resources are identified by attachment.
+Always additive ("Allow") and never subtractive ("Deny"), child policies cannot restrict access granted at a higher level.
+
 ### AAA Data flow
 
 1. Authentication - Who are you ?
