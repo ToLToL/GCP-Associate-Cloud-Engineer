@@ -231,26 +231,26 @@ HTTP and HTTPS: URLs and paths
 
 ## Services
 
-### GCE - Compute Engine
+### GCE - Compute Engine (Regional)
 
 Pay by the second.
 Substained use discount: automatically cheaper if you keep running it.
 Even cheaper for "preemptible (AWS spot instance) / long-term use commitment in a region (AWS reserved instance)".
 Live migration: Google seamlessly moves instance across hosts.
 
-### GKE - Kubernetes Engine
+### GKE - Kubernetes Engine (Regional)
 
 Pay for underlying GCE instances.
 No GKE management fee, no matter how many nodes we have.
 
-### GAE - App Engine
+### GAE - App Engine (Regional)
 
 PaaS --> Heroku, AWS elastic beanstalk, take code and runs it.
 
 Flex mode: can run any container
 Auto-scales based on load.
 
-### GCF - Cloud Functions
+### GCF - Cloud Functions (Regional)
 
 FaaS -> AWS lamba
 
@@ -259,4 +259,20 @@ Each function gets an HTTP endpoint
 Can be triggered by GCS objects, pub / sub message
 Massively scalable horizontally
 
+### Local SSD (Zonal)
 
+AWS EC2 store volumes - Direct-attached storage (DAS)
+Data will be lost whenever the instance shuts down, but can survive Live Migration
+Data encrypted at rest
+Pay by GB / month provisioned
+
+### PD - Persistent Disk (Zonal)
+
+AWS Elastic Block Storage / Storage Area Network (SAN)
+
+Block-based network-attached storage, boot disk for every GCE instance.
+Persistent disks are replicated
+Can resize while in use.
+Snapshots
+Can be mount to multiple nstances if all are read-only
+Pay for GB / month provisioned depending on performance class + snapshot GB / month used
