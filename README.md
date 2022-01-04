@@ -229,7 +229,7 @@ HTTP and HTTPS: URLs and paths
 - Specified tags
 
 
-## Services
+## Compute services
 
 ### GCE - Compute Engine (Regional)
 
@@ -258,6 +258,8 @@ Pay for CPU / RAM assigned to function per 100ms
 Each function gets an HTTP endpoint
 Can be triggered by GCS objects, pub / sub message
 Massively scalable horizontally
+
+## Storage services
 
 ### Local SSD (Zonal)
 
@@ -292,7 +294,7 @@ Pay for provisioned TBs in:
 AWS S3 - Glacier
 
 Infinitely scalable, fully-managed, versioned and durable object storage
-99.99999999999 (eleven 9) durability
+99.999999999 (eleven 9) durability
 Site hosting / CDN functionality
 Lifecycle transitions across classes:
 - Multi-regional
@@ -302,3 +304,61 @@ Lifecycle transitions across classes:
 
 Pay for data operations & GB / month stored by class
 Nearline / Coldline: also pay for GBs retrieved + early deletion
+
+## Database services
+
+
+### Cloud SQL (Regional)
+
+AWS RDS
+
+Fully-managed MySQL and PostgreSQL
+Supports automatic replication / backup / failover
+Scaling is manual
+Pay for underlying GCE instances and PDs
+
+### Cloud Spanner (Regional / Multi-regional / Global)
+
+First horizontally scalable, strongly consistent, relational database service:
+- from 1 to thousands of nodes
+- Recommended: at least 3 nodes for prod
+
+SLA: 99,999% for multi-region
+Pay for provisioned node time + used storage-time
+
+### BQ - BigQuery (Multi-regional)
+
+AWS Redshift + AWS Athena
+
+Serverless column-store data warehouse for analytics using SQL
+Pay for GBs actualy considered (scanned) during queries:
+- attempts to reuse cached results which are free
+Pay for data stores GBs / month
+- cheaper when table not modified for 90 days
+Pay for GBs added via streaming inserts
+
+### Cloud BigTable (Zonal)
+
+AWS DynamoDB, Apache Hbase
+
+Low latency & high throughput NoSQL Db for large analytical apps.
+Supports HBase API
+Integrates with Hadoop, Dataflow, Dataproc
+Scales seamlessly
+Pay for processing node hour, GB / hours used for storage
+
+### Cloud Datastore (Regional / Multi-regional)
+
+AWS DynamoDB
+
+Managed & autoscaled NoSQL DB with indexes, queries and ACID.
+
+### Firebase Realtime DB (Zonal) - Cloud Firestore (Multi-regional)
+
+NoSQL documents stores with real-time client updates wia managed websockets
+- Free tier (Spark)
+- Flat tier (Flame)
+- usage-based pricing (Blaze)
+
+Realtime DB: pay more for storage and GB downloaded
+Firestore: pay for operations and much less for storage and transfer
