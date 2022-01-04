@@ -227,3 +227,36 @@ HTTP and HTTPS: URLs and paths
 - All instances in the VPC
 - Service Account
 - Specified tags
+
+
+## Services
+
+### GCE - Compute Engine
+
+Pay by the second.
+Substained use discount: automatically cheaper if you keep running it.
+Even cheaper for "preemptible (AWS spot instance) / long-term use commitment in a region (AWS reserved instance)".
+Live migration: Google seamlessly moves instance across hosts.
+
+### GKE - Kubernetes Engine
+
+Pay for underlying GCE instances.
+No GKE management fee, no matter how many nodes we have.
+
+### GAE - App Engine
+
+PaaS --> Heroku, AWS elastic beanstalk, take code and runs it.
+
+Flex mode: can run any container
+Auto-scales based on load.
+
+### GCF - Cloud Functions
+
+FaaS -> AWS lamba
+
+Pay for CPU / RAM assigned to function per 100ms
+Each function gets an HTTP endpoint
+Can be triggered by GCS objects, pub / sub message
+Massively scalable horizontally
+
+
