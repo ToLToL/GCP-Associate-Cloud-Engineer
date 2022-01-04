@@ -385,3 +385,18 @@ One-time or scheduled recurring transfers
 Free to use but pay for its actions
 
 
+## External networking
+
+### Google domains (Global)
+
+AWS Route 53
+
+Google's registrat for DN.
+
+### Cloud DNS (Global)
+
+AWS Route 53
+
+Managed DNS service
+100% uptime guarantee
+Public and private managed zones.
