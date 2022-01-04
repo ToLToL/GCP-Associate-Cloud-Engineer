@@ -362,3 +362,26 @@ NoSQL documents stores with real-time client updates wia managed websockets
 
 Realtime DB: pay more for storage and GB downloaded
 Firestore: pay for operations and much less for storage and transfer
+
+
+## Data transfer services
+
+
+### Data transfer appliance
+
+AWS Snowball
+
+Physically ship data to GCS.
+2 versions:
+- 100 TB
+- 480 TB
+
+### Data transfer service (Global)
+
+Copies objects for us, don't need to set up a machine.
+Source: S3, HTTP / HTTPS endpoint, GCS bucket
+Destination: GCS bucket
+One-time or scheduled recurring transfers
+Free to use but pay for its actions
+
+
