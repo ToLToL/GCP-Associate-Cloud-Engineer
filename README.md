@@ -276,3 +276,29 @@ Can resize while in use.
 Snapshots
 Can be mount to multiple nstances if all are read-only
 Pay for GB / month provisioned depending on performance class + snapshot GB / month used
+
+### Cloud Filestore (Zonal)
+
+AWS EFS elastic file system - NAS Network-attached storage
+
+Fully-managed file-based storage
+Accessible to GCE and GKE through your VPC via NFSv3 protocol
+Pay for provisioned TBs in:
+- Standard (slow)
+- Premium (fast)
+
+### Cloud storage (Regional / multi regional)
+
+AWS S3 - Glacier
+
+Infinitely scalable, fully-managed, versioned and durable object storage
+99.99999999999 (eleven 9) durability
+Site hosting / CDN functionality
+Lifecycle transitions across classes:
+- Multi-regional
+- Regional
+- Nearline (once / month)
+- Coldline (once / year)
+
+Pay for data operations & GB / month stored by class
+Nearline / Coldline: also pay for GBs retrieved + early deletion
