@@ -227,4 +227,3 @@ HTTP and HTTPS: URLs and paths
 - All instances in the VPC
 - Service Account
 - Specified tags
-
