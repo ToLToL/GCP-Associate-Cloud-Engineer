@@ -489,3 +489,43 @@ Pre-trained ML model to help job seekers search job posting databases.
 ![Screenshot 2022-01-10 at 10 15 42](https://user-images.githubusercontent.com/39993930/148742077-741174ef-2933-42b5-83e1-8d6101cb3334.png)
 
 
+### Cloud IoT Core (Global)
+
+AWS IoT
+Fully-managed service to connect, manage and ingest data from devices globally.
+![Screenshot 2022-01-10 at 10 17 45](https://user-images.githubusercontent.com/39993930/148742345-208e0b98-16d9-4d68-9876-65dad44b5a9a.png)
+
+### Cloud Pub / Sub (Global)
+
+AWS SNS, SQS
+Infinitely-scalable at least-once messaging for ingestion, decoupling.
+Messages up to 10MB and stored for 7 days.
+
+
+### Cloud Dataprep (Global)
+
+AWS Glue
+Visually explore, clean and prepare data for analysis without running servers.
+Data wrangling for business analysts not IT pros.
+
+### Cloud Dataproc (Zonal)
+
+AWS EMR, Spark, Hadoop
+MapReduce processing via configurable, managed Spark & Hadoop clusters.
+
+
+### Cloud Dataflow (Zonal)
+
+Smartly-autoscaled & fully-managed batch or stream MapReduce-like processing.
+
+### Cloud Datalab (Regional)
+
+Uses Jupyter Notebook, interactive tool for data exploration, analysis, visualization and machine learning.
+
+### Cloud Data Studio (Global)
+
+Big Data visualization tool for dashboards and reporting
+
+### Cloud Genomics (Global)
+
+Store and process genomes and related experiments
