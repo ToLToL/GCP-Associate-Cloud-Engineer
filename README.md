@@ -5,6 +5,7 @@ Notes to pass the GCP associate cloud engineer certification
 1. [A Cloud Guru - GCP certified associate cloud engineer](https://learn.acloud.guru/course/gcp-certified-associate-cloud-engineer)
 2. [GCP - AWS products mapping](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
 3. [Every product in the Google Cloud family described in <=4 words](https://github.com/priyankavergadia/google-cloud-4-words)
+4. [Exam topics - pool of accurate test questions](https://www.examtopics.com/exams/google/associate-cloud-engineer/)
 
 ## Shortcuts
 
