@@ -400,3 +400,33 @@ AWS Route 53
 Managed DNS service
 100% uptime guarantee
 Public and private managed zones.
+
+## Internal networking
+
+### VPC - Virtual Private Cloud (Regional - Global)
+
+Global IPv4 unicast Software-Defined Network (SDN) for GCP resources
+Automatic / custom mode.
+VPC is global, subnets are regional.
+
+### Cloud Interconnect (Regional - Multi-Regional)
+
+Connect external network to Google's.
+Private connections to VPC via Cloud VPN or Dedicated/Partner Interconnect
+
+### Cloud VPN (Regional)
+
+IPsec VPN to connect to VPC via public internet for low-volume data connections.
+
+### Dedicated Interconnect (Regional - Multi-Regional)
+
+Direct physical link between VPC and on-prem data center for high-volume data connections
+
+### Cloud Router (Regional)
+
+Dynamic routing for hybrid networks linking GCP VPCs to external networks.
+Works with Cloud VPN and Dedicated Interconnect
+
+### Dedicated Interconnect (Regional - Multi-Regional)
+
+Direct connectivity to CDN providers.
