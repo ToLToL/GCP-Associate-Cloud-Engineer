@@ -586,6 +586,7 @@ Centrally manage & secure organization projects with custom folder hierarchy
 - Folders: per business needs
 
 ![Screenshot 2022-01-10 at 11 05 34](https://user-images.githubusercontent.com/39993930/148748325-63958b4a-dafe-4ff8-897f-7f8d785193d7.png)
+
 Tied 1:1 to a Cloud Identity / G Suite domain without organzation specific identities people must own GCP projects.
 
 ### Cloud Identity-Aware Proxy (IAP) (Global)
@@ -604,3 +605,52 @@ Maintains activities for 400 days:
 - Access Transparency (GCP support)
 30 days:
 - Data Access
+
+## Security Management
+
+### Cloud Armor (Global)
+
+AWS Shield & WAF (Web Application Firewall)
+Edge-level protection from DDoS & others attacks on global HTTP(S) load balancers.
+Monitor: Detailed request-level logs available in Stackdriver Logging
+Manage IPs with CIDR-based allow / block lists (whitelist / blacklist)
+Preview effect of changes before making them live
+
+### Security Scanner (Global)
+
+AWS Inspector
+Free but limited Google App Engine app vulnerability scanner with "very low false positive rates"
+Can identify:
+- Cross-site-scripting (XSS)
+- Flash injection
+- Mixed content (HTTP in HTTPS)
+- Oudated / insecure libraries
+
+### Cloud DLP (Data Loss Prevention) API (Global)
+
+AWS Macie
+
+Finds and optionaly redacts sensitive info in unstructured data streams
+50+ sensitive data detectors:
+- names
+- redit card  / social security / passport numbers
+
+### ETD (Event Threat Dectection) (Global)
+
+AWS GuardDuty
+Automatically scans Stackdriver logs for suspicious activity
+Detects threats:
+- Malware
+- cryptomining
+- outgoing DDoS attacks
+- brute-force SSH
+
+Can export parsed logs to BigQuery for forensic analysis
+
+### Cloud SCC (Security Command Center) (Global)
+
+AWS Security Hub - Splunk ES - Sumo Logic
+![Screenshot 2022-01-10 at 11 41 40](https://user-images.githubusercontent.com/39993930/148752868-f3e486d3-e05c-4f0f-a74a-fbed627d9f10.png)
+
+Comprehensive security management and data risk platform for GCP
+
