@@ -654,3 +654,23 @@ AWS Security Hub - Splunk ES - Sumo Logic
 
 Comprehensive security management and data risk platform for GCP
 
+
+## Security Management
+
+### Cloud KMS (Key Management Service) (Regional - Multi-Regional Global)
+
+AWS KMS - HashiCorp Vault
+
+Manage crypto keys
+symmetric: AES
+asymmetric: RSA, EC
+
+Move secrets out of code and into the environmenet
+Integrated with IAM & Cloud Audit Logging to authorize & track key usage
+Rotate keys
+
+### Cloud HSM (Hardware Security Moduke) (Regional - Multi-Regional Global)
+
+Device hosts encryption keys and perform cryptographic operations
+To meet compliance that mandates hardware environment
+Fully integrated with Cloud KMS
