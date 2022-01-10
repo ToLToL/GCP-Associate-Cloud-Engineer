@@ -726,3 +726,41 @@ IaaS
 
 AWS billing API
 Programmatically manage billing for GCP
+
+## Development & APIs
+
+### Cloud Source Repositories (Global)
+
+AWS CodeCommit / Github
+Hosted private git repositories
+Can set up automatic sync from Github
+Natural integration with Stackdriver debugger
+
+### Cloud Build (Global)
+
+AWS CodeBuild, Travis, Jenkins
+Continuously takes sources code and builds, tests, deploys it - CI / CD
+
+### Container Registry (GCR) (Regional / Multi-Regional)
+
+Private Docker image storage
+Creates and manages a multi-regional GCS bucket, then translates GCR calls to GCS
+
+### Cloud Endpoints (Global)
+
+AWS API Gateway, Nginx
+
+Handles authorization, monitoring, logging and API keys for APIs backed by GCP
+Use JTWs
+
+### Apigee (Global)
+
+Full-featured, enterprise-scale API management platform for whole API lifecycle
+Transforms calls between different protocols: SOAP / REST / XML
+Authenticate: OAuth / SAML / LDAP
+Authorize: RBAC
+
+### Test Lab for Android (Global)
+
+AWS Device Farm
+Cloud infra for running test across variety of real Android devices
