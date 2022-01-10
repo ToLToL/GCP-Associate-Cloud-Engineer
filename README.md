@@ -484,3 +484,8 @@ Pre-trained ML model for videos scene analysis and subject identification.
 Helps career sites, company job boards to improve engagement and conversion
 Pre-trained ML model to help job seekers search job posting databases.
 
+## Big data & IoT
+
+![Screenshot 2022-01-10 at 10 15 42](https://user-images.githubusercontent.com/39993930/148742077-741174ef-2933-42b5-83e1-8d6101cb3334.png)
+
+
