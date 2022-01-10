@@ -674,3 +674,55 @@ Rotate keys
 Device hosts encryption keys and perform cryptographic operations
 To meet compliance that mandates hardware environment
 Fully integrated with Cloud KMS
+
+## Operations & Management
+
+### Stackdriver (Global)
+
+AWS CloudWatch
+Family of services for monitoring, logging & diagnosing apps on GCP / AWS / hybrid
+1 Stackdriver account can track multiple:
+- GCP projets
+- AWS accounts
+- Others resources
+
+### Stackdriver Monitoring (Global)
+
+AWS CloudWtach Metrics & Dashboards / Datadog / Collectd
+Gives visivility into perf / uptime / overall health of cloud apps
+Alerts via email / GCP mobille app / SMS / Slack ...
+Cross-cloud
+
+### Stackdriver Logging (Global)
+
+AWS CloudWatch Logs / Splunk / Fluentd
+Store, search, analyze monitor and alert on log data & events
+
+### Stackdriver Error Reporting (Global)
+
+Counts, analyzes, aggregates & tracks crashes in centralized interface
+
+
+### Stackdriver Trace (Global)
+
+AWS X-Ray
+Tracks and displays call tree & timing across distributes systems
+
+### Stackdriver Debugger (Global)
+
+Grabs program state (callstack, varaibles, expressions) in live deploys
+
+### Stackdriver Profiler (Global)
+
+Continuous CPU and memory profiling to improve perf & reduce cost
+
+### Stackdriver Profiler (Global)
+
+AWS CloudFormation / Terraform
+
+IaaS
+
+### Cloud Billing API (Global)
+
+AWS billing API
+Programmatically manage billing for GCP
