@@ -529,3 +529,78 @@ Big Data visualization tool for dashboards and reporting
 ### Cloud Genomics (Global)
 
 Store and process genomes and related experiments
+
+## Identity & access
+
+### Roles (Global)
+
+AWS IAM policies
+Roles are collections of Permissions to use / manage GCP resources.
+Permissions allow you to perform certain actions: `Service.Resource.Verb`
+- Primitive Roles:
+  - Owner (control access & billing)
+  - Editor
+  - Viewer
+
+- Predefined Roles: granular access to specific GCP resources
+e.g.: `roles/bigquery.dataEditor`
+- Custom Roles
+
+### Cloud IAM (Global)
+
+AWS IAM
+Controls access to GCP resources: authorization.
+Member is:
+- user
+- group
+- domain
+- service account: belongs to application / instance
+
+Every identity had a unique e-mail address, including service accounts
+Policies bind Members to Roles at a hierarchy level: Org, Folder, Project, Resource
+
+![Screenshot 2022-01-10 at 10 38 58](https://user-images.githubusercontent.com/39993930/148744857-7ef4e93d-00c7-467b-82b8-235f649285d2.png)
+
+
+### Service accounts (Global)
+
+AWS IAM Roles
+Special type of Google account that represents an application not an end user
+Should use service account rather than user accounts / API keys.
+For non-GCP prefer Cloud-Platform-managed keys, GCP rotates them once a day
+
+### Cloud Identity (Global)
+
+Identity as a Service (IDaaS) to provision and manage users and groups.
+Centrally manage all users in Google Admin console
+
+### Security Key Enforcement (Global)
+
+USB or Bluetooth 2-step verification device that prevents phising
+
+### Resource Manager (Global)
+
+AWS organizations
+Centrally manage & secure organization projects with custom folder hierarchy
+- Organization: root
+- Folders: per business needs
+
+![Screenshot 2022-01-10 at 11 05 34](https://user-images.githubusercontent.com/39993930/148748325-63958b4a-dafe-4ff8-897f-7f8d785193d7.png)
+Tied 1:1 to a Cloud Identity / G Suite domain without organzation specific identities people must own GCP projects.
+
+### Cloud Identity-Aware Proxy (IAP) (Global)
+
+AWS API Gateway
+Guards running on GCP via identity verification not VPN access
+Based on Cloud Load Balancer & IAM and only passes authed requests
+
+### Cloud Audit Logging (Global)
+
+AWS CloudTrail
+Answers the questions: "Who did what, where and when" within GCP projects
+Maintains activities for 400 days:
+- Admin Activity (create GCE instance)
+- Systems Events (auto-scaling)
+- Access Transparency (GCP support)
+30 days:
+- Data Access
