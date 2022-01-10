@@ -261,6 +261,8 @@ Massively scalable horizontally
 
 ## Storage services
 
+![Screenshot 2022-01-10 at 17 01 57](https://user-images.githubusercontent.com/39993930/148797514-ec9bad6d-4793-4af1-84c0-5b606775bde3.png)
+
 ### Local SSD (Zonal)
 
 AWS EC2 store volumes - Direct-attached storage (DAS)
@@ -316,6 +318,7 @@ Fully-managed MySQL and PostgreSQL
 Supports automatic replication / backup / failover
 Scaling is manual
 Pay for underlying GCE instances and PDs
+Binary Logging enables Point in Recovery in Cloud SQL
 
 ### Cloud Spanner (Regional / Multi-regional / Global)
 
@@ -386,6 +389,8 @@ Free to use but pay for its actions
 
 
 ## External networking
+
+![Screenshot 2022-01-10 at 16 58 32](https://user-images.githubusercontent.com/39993930/148796963-ae9b0563-f163-49bc-8ad7-d5eb521ad998.png)
 
 ### Google domains (Global)
 
