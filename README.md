@@ -430,3 +430,57 @@ Works with Cloud VPN and Dedicated Interconnect
 ### Dedicated Interconnect (Regional - Multi-Regional)
 
 Direct connectivity to CDN providers.
+
+## Machine learning / AI
+
+### Cloud Machine Learming Engine (Regional)
+
+AWS SageMaker
+Massively scalable managed service for training ML models & making predictions
+Enable devs to user TensorFlow on datasets of any size
+Integrates:
+- Storage: GCS / BQ
+- Dev: Cloud Datalab
+- Preprocessing: Cloud Dataflow
+
+### Cloud Vision API (Global)
+
+AWS Rekognition
+Classifies images into categories, detects objects / faces & finds / reads printed text
+Pre-trained ML model to analyze images and discover their contents
+Upload images or point to ones stored in GCS
+
+### Cloud Speech API (Global)
+
+Automatic speech recognition (ASR) to turn spoken work audio files into text.
+Pre-trained ML model to recognizing speech in 110+ languages.
+
+### Cloud Natural Language API (Global)
+
+Analyzes text for sentiment, intent, content classification and extracts info.
+Pre-trained ML model for understanding what text means.
+Works with Speech API (audio), Vision API (OCR = optical character recognition), Translation API
+
+### Cloud Translation API (Global)
+
+Pre-trained ML model for recognizing and translating.
+
+### Diagflow (Global)
+
+AWS Lex
+Build converstational interfaces for websites, mobile apps, messaging, IoT devices.
+Pre-trained ML model and service for accepting, parsing, lexing input & responding.
+
+### Cloud Video Intelligence API (Regional - Global)
+
+Annotates videos in GCS with info about what they contain.
+Pre-trained ML model for videos scene analysis and subject identification.
+- Label dectection: detect entities: cat, flower
+- Shot change detection
+- SafeSearch detection: detect adult content
+
+### Cloud Job Discovery (Global)
+
+Helps career sites, company job boards to improve engagement and conversion
+Pre-trained ML model to help job seekers search job posting databases.
+
